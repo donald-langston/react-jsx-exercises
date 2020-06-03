@@ -12,5 +12,14 @@ let Blog = () => {
     return <span>Make this Component render the header, article, and footer</span>
 }
 
+let RenderedPage = () => {
+    return <div>
+        <header>{Header()}</header>
+        <article>{Article()}</article>
+        <footer>{Footer()}</footer>
+        <div>{Blog()}</div>
+    </div>
+}
 
-ReactDOM.render(<Blog />, document.getElementById('root'))
+
+ReactDOM.render(<RenderedPage />, document.getElementById('root'))
