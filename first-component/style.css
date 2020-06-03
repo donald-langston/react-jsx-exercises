@@ -1,0 +1,33 @@
+#firstRow {
+    display: flex;
+    flex-direction: row;
+}
+
+#secondRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.redBox {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+}
+
+.blueBox {
+    height: 40px;
+    width: 40px;
+    background-color: blue
+}
+
+.greenBox {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+}
+
+.yellowBox {
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+}
