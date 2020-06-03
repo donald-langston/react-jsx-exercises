@@ -14,10 +14,10 @@ let Blog = () => {
 
 let RenderedPage = () => {
     return <div>
-        <header>{Header()}</header>
-        <article>{Article()}</article>
-        <footer>{Footer()}</footer>
-        <div>{Blog()}</div>
+        <header><Header /></header>
+        <article><Article /></article>
+        <footer><Footer /></footer>
+        <Blog />
     </div>
 }
 
